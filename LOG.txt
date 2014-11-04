@@ -1,0 +1,74 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[17:39:27] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:31:25] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:34:32] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:38:22] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:44:07] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:44:20] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:48:34] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:54:06] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[21:01:25] INFO: Program Start
+[21:01:49] INFO: Got package, creating thread to handle
+[21:01:49] INFO: message sent to SERVER
+[21:01:49] INFO: got message from SERVER
+[21:01:49] INFO: message sent to Client
+[21:02:38] INFO: Got package, creating thread to handle
+[21:02:38] INFO: message sent to SERVER
+[21:02:38] INFO: got message from SERVER
+[21:02:38] INFO: message sent to Client
+[21:04:20] INFO: Got package, creating thread to handle
+[21:04:20] INFO: message sent to SERVER
+[21:04:20] INFO: got message from SERVER
+[21:04:20] INFO: message sent to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[21:10:33] INFO: Program Start
+[21:10:52] INFO: Got package, creating thread to handle
+[21:10:52] INFO: Got package, creating thread to handle
+[21:10:52] INFO: Got package, creating thread to handle
+[21:10:52] INFO: message sent to SERVER
+[21:10:52] INFO: message sent to SERVER
+[21:10:52] INFO: got message from SERVER
+[21:10:52] INFO: message sent to SERVER
+[21:10:52] INFO: message sent to Client
+[21:10:52] INFO: got message from SERVER
+[21:10:52] INFO: message sent to Client
+[21:10:52] INFO: got message from SERVER
+[21:10:52] INFO: message sent to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[14:55:08] INFO: Program Start
+[14:55:31] INFO: Got package, creating thread to handle
+[14:55:31] INFO: message sent to SERVER
+[14:55:31] INFO: got message from SERVER
+[14:55:31] INFO: message sent to Client
+[14:55:38] INFO: Got package, creating thread to handle
+[14:55:38] INFO: message sent to SERVER
+[14:55:38] INFO: got message from SERVER
+[14:55:38] INFO: message sent to Client
+[14:55:50] INFO: Got package, creating thread to handle
+[14:55:50] INFO: message sent to SERVER
+[14:55:50] INFO: got message from SERVER
+[14:55:50] INFO: message sent to Client
+[14:57:09] INFO: Got package, creating thread to handle
+[14:57:09] INFO: message sent to SERVER
+[14:57:09] INFO: got message from SERVER
+[14:57:09] INFO: message sent to Client
+[14:57:15] INFO: Got package, creating thread to handle
+[14:57:15] INFO: message sent to SERVER
+[14:57:15] INFO: got message from SERVER
+[14:57:15] INFO: message sent to Client
+[14:57:22] INFO: Got package, creating thread to handle
+[14:57:22] INFO: message sent to SERVER
+[14:57:22] INFO: got message from SERVER
+[14:57:22] INFO: message sent to Client
+[14:57:28] INFO: Got package, creating thread to handle
+[14:57:28] INFO: message sent to SERVER
+[14:57:28] INFO: got message from SERVER
+[14:57:28] INFO: message sent to Client
