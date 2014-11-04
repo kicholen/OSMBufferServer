@@ -3,7 +3,7 @@
 //  - każda paczka od klientów obsługiwana jest przez osobny wątek
 //	  po otrzymaniu paczki tworzymy wątek do jej obsługi
 //==============================================================================
-package pwr.osm.server;
+package pwr.osm.buffer.server;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;

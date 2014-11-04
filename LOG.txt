@@ -72,3 +72,5 @@
 [14:57:28] INFO: message sent to SERVER
 [14:57:28] INFO: got message from SERVER
 [14:57:28] INFO: message sent to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:18:02] INFO: Program Start

@@ -1,4 +1,4 @@
-package pwr.osm.util;
+package pwr.osm.buffer.util;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

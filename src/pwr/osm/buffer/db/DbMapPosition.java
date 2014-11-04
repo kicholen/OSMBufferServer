@@ -1,4 +1,4 @@
-package pwr.osm.db;
+package pwr.osm.buffer.db;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

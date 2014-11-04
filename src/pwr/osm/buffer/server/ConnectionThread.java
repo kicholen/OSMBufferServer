@@ -3,7 +3,7 @@
 //  - łączy sie z Serwerem TCP
 //	- odpowiedź z Serwera przesyła klientowi
 //==============================================================================
-package pwr.osm.server;
+package pwr.osm.buffer.server;
 
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayOutputStream;

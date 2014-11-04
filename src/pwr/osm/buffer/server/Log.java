@@ -1,4 +1,4 @@
-package pwr.osm.server;
+package pwr.osm.buffer.server;
 
 import java.io.PrintWriter;
 import java.io.BufferedWriter;

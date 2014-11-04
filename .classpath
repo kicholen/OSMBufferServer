@@ -15,5 +15,7 @@
 	<classpathentry kind="lib" path="libs/jboss-logging-annotations-1.2.0.Beta1.jar"/>
 	<classpathentry kind="lib" path="libs/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
 	<classpathentry kind="lib" path="libs/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="libs/log4j.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
