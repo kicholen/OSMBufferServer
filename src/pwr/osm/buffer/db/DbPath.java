@@ -12,6 +12,11 @@ import javax.persistence.OneToMany;
 import javax.persistence.OrderColumn;
 import javax.persistence.Table;
 
+/**
+ * For mapping to db table that stores paths points.
+ * @author Sobot
+ *
+ */
 @Entity
 @Table(name="DBPATH")
 public class DbPath {

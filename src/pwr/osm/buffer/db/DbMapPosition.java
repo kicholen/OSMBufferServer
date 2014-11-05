@@ -8,6 +8,11 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+/**
+ * For mapping to db table that stores paths information.
+ * @author Sobot
+ *
+ */
 @Entity
 @Table(name="DBMAPPOSITION")
 public class DbMapPosition{

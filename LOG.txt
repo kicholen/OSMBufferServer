@@ -74,3 +74,16 @@
 [14:57:28] INFO: message sent to Client
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 [20:18:02] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:18:07] INFO: Program Start
+[16:18:38] INFO: Got package, creating thread to handle
+[16:18:49] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:25:22] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:25:30] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:26:47] INFO: Program Start
+[16:27:01] INFO: Got package, creating thread to handle
+[16:27:01] INFO: message sent to SERVER
+[16:27:04] INFO: message sent to Client
