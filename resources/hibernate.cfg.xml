@@ -19,8 +19,8 @@
         <property name="show_sql">true</property>
         <property name="hbm2ddl.auto">update</property>
   
-    <mapping class="pwr.osm.db.DbPath"/>
-    <mapping class="pwr.osm.db.DbMapPosition"/>
+    <mapping class="pwr.osm.buffer.db.DbPath"/>
+    <mapping class="pwr.osm.buffer.db.DbMapPosition"/>
           
     </session-factory>
 </hibernate-configuration>

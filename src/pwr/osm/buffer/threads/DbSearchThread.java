@@ -15,6 +15,7 @@ import pwr.osm.data.representation.MapPosition;
 *	- jeśli tak, to odsyła do klienta
 */
 public class DbSearchThread implements Callable<List<MapPosition>>{
+	
 	private List<MapPosition> pointsFromClient;
 
 	public DbSearchThread(List<MapPosition> pointsFromClient){

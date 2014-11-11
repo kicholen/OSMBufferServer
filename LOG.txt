@@ -87,3 +87,61 @@
 [16:27:01] INFO: Got package, creating thread to handle
 [16:27:01] INFO: message sent to SERVER
 [16:27:04] INFO: message sent to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:40:10] INFO: Program Start
+[20:40:31] INFO: Got package, creating thread to handle
+[20:40:31] INFO: message sent to SERVER
+[20:40:31] INFO: message received from SERVER
+[20:40:34] INFO: path sent to Client
+[20:40:34] INFO: path added to Db
+[20:40:36] ERROR: Exception occured: Unable to load class [ pwr.osm.db.DbPath] declared in Hibernate configuration <mapping/> entry
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[21:31:45] INFO: Program Start
+[21:32:27] INFO: Got package, creating thread to handle
+[21:32:27] INFO: message sent to SERVER
+[21:32:27] INFO: message received from SERVER
+[21:32:30] INFO: path sent to Client
+[21:32:30] INFO: path added to Db
+[21:32:31] ERROR: Exception occured: Unable to load class [ pwr.osm.db.DbPath] declared in Hibernate configuration <mapping/> entry
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[21:33:27] INFO: Program Start
+[21:33:33] INFO: Got package, creating thread to handle
+[21:33:33] INFO: message sent to SERVER
+[21:33:33] INFO: message received from SERVER
+[21:33:36] INFO: path sent to Client
+[21:33:36] INFO: path added to Db
+[21:33:36] ERROR: Exception occured: Unable to load class [ pwr.osm.db.DbPath] declared in Hibernate configuration <mapping/> entry
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[21:34:22] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[21:35:45] INFO: Program Start
+[21:35:48] INFO: Got package, creating thread to handle
+[21:35:48] INFO: message sent to SERVER
+[21:35:48] INFO: message received from SERVER
+[21:35:51] INFO: path sent to Client
+[21:35:51] INFO: path added to Db
+[21:36:08] INFO: Got package, creating thread to handle
+[21:36:08] INFO: message sent to SERVER
+[21:36:08] INFO: message received from SERVER
+[21:36:11] INFO: path sent to Client
+[21:36:11] INFO: path added to Db
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[21:36:31] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[14:50:43] INFO: Program Start
+[14:51:53] INFO: Got package, creating thread to handle
+[14:51:53] INFO: message sent to SERVER
+[14:51:53] INFO: message received from SERVER
+[14:51:56] INFO: path sent to Client
+[14:51:56] INFO: path added to Db
+[14:52:00] ERROR: Exception occured: Error calling Driver#connect
+[14:54:19] INFO: Got package, creating thread to handle
+[14:54:19] INFO: message sent to SERVER
+[14:54:19] INFO: message received from SERVER
+[14:54:22] INFO: path sent to Client
+[14:54:22] INFO: path added to Db
+[14:54:49] INFO: Got package, creating thread to handle
+[14:54:49] INFO: message sent to SERVER
+[14:54:49] INFO: message received from SERVER
+[14:54:52] INFO: path sent to Client
+[14:54:52] INFO: path added to Db

@@ -10,6 +10,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 import pwr.osm.buffer.threads.ConnectionThread;
+import pwr.osm.buffer.threads.DbAddThread;
 import pwr.osm.buffer.threads.ReplyThread;
 import pwr.osm.data.representation.MapPosition;
 
@@ -26,6 +27,7 @@ class BufferServer
 	{
 		ExecutorService execSendToServerService = Executors.newFixedThreadPool(10);
 		ExecutorService execSendToClientService = Executors.newFixedThreadPool(10);
+		ExecutorService execAddToDbService = Executors.newFixedThreadPool(10);
 		Log log = new Log();
 		log.onStart();
 		System.out.println("SERVER WORKING");
@@ -51,7 +53,9 @@ class BufferServer
     			// sending back to Client
     			execSendToClientService.execute(new ReplyThread(
     					points.get(), receivePacket.getAddress(), receivePacket.getPort()));
-    			log.info("message sent to Client");
+    			log.info("path sent to Client");
+    			execAddToDbService.execute(new DbAddThread(points.get()));
+    			log.info("path added to Db");
            }
 	}
 }
