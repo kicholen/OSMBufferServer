@@ -25,7 +25,7 @@ class BufferServer
 		System.out.println("waiting for packets...");
 		@SuppressWarnings("resource")
 		DatagramSocket serverUDPSocket = new DatagramSocket(PORT);   // BufferServer port: 9876
-		execService.execute(new DbClearThread(1));
+		execService.execute(new DbClearThread(1, 2));
         while(true)
     	{	
 	      	byte[] receiveData = new byte[5000];

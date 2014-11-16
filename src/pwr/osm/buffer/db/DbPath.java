@@ -46,6 +46,9 @@ public class DbPath {
 	
 	@Column(name="add_date")
 	private Date addDate;
+	
+	@Column(name="times_used")
+	private int timesUsed;
 
 	// Constructor
 	public DbPath() {
@@ -58,6 +61,7 @@ public class DbPath {
 		this.endLatitude = endLatitude;
 		this.endLongitude = endLongitude;
 		this.addDate = new Date();
+		this.timesUsed = 1;
 	}
 	
 	// Getter and Setter methods
@@ -117,5 +121,12 @@ public class DbPath {
 		this.addDate = addDate;
 	}
 	
+	public int getTimesUsed() {
+		return timesUsed;
+	}
+
+	public void setTimesUsed(int timesUsed) {
+		this.timesUsed = timesUsed;
+	}
 
 }

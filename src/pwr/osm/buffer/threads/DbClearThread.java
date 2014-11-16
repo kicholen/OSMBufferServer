@@ -18,13 +18,16 @@ import pwr.osm.buffer.util.HibernateUtil;
 public class DbClearThread implements Runnable{
 
 	private int timeLimit;
+	private int timesUsed;
 
 	/**
 	 * Constructor.
-	 * @param timeLimit time in minutes
+	 * @param timeLimit path deleted id older than timeLimit
+	 * @param timesUsed if used more times timesUsed than path is not deleted
 	 */
-	public DbClearThread(int timeLimit){
+	public DbClearThread(int timeLimit, int timesUsed){
 		this.timeLimit = timeLimit;
+		this.timesUsed = timesUsed;
 	}
 	
 	/**
@@ -44,7 +47,8 @@ public class DbClearThread implements Runnable{
 			List<DbPath> result = query.list();
 			for(DbPath dbPath : result)
 			{
-				if((time.getTime() - dbPath.getAddDate().getTime()) > timeLimit*60000)
+				if((time.getTime() - dbPath.getAddDate().getTime()) > timeLimit*60000
+						&& dbPath.getTimesUsed() <= timesUsed)
 					session.delete(dbPath);
 			}
 	        session.getTransaction().commit();

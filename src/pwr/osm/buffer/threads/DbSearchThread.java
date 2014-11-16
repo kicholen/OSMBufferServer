@@ -80,6 +80,8 @@ public class DbSearchThread implements Callable<List<MapPosition>>{
 					        	pointsFromDb.add(new MapPosition(dbmp.getLatitude(), dbmp.getLongitude()));
 					        	System.out.println(dbmp.getLatitude());
 					        }
+					        dbPath.setTimesUsed(dbPath.getTimesUsed()+1);
+					        session.getTransaction().commit();
 					        session.close();
 					        return pointsFromDb;
 						}
