@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
 
-import pwr.osm.buffer.server.Log;
+import pwr.osm.buffer.util.Log;
 import pwr.osm.data.representation.MapPosition;
 
 /**

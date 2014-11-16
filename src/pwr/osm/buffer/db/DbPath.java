@@ -1,5 +1,6 @@
 package pwr.osm.buffer.db;
 
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -43,6 +44,9 @@ public class DbPath {
     @OrderColumn(name="idx")
 	private List<DbMapPosition> dbPathPoints;
 	
+	@Column(name="add_date")
+	private Date addDate;
+
 	// Constructor
 	public DbPath() {
 		
@@ -53,6 +57,7 @@ public class DbPath {
 		this.startLongitude = startLongitude;
 		this.endLatitude = endLatitude;
 		this.endLongitude = endLongitude;
+		this.addDate = new Date();
 	}
 	
 	// Getter and Setter methods
@@ -102,6 +107,14 @@ public class DbPath {
 
 	public void setDbPath(List<DbMapPosition> dbPathPoints) {
 		this.dbPathPoints = dbPathPoints;
+	}
+	
+	public Date getAddDate() {
+		return addDate;
+	}
+
+	public void setAddDate(Date addDate) {
+		this.addDate = addDate;
 	}
 	
 

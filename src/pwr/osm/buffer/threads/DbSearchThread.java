@@ -8,18 +8,16 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
-import pwr.osm.buffer.server.Log;
 import pwr.osm.data.representation.MapPosition;
 import pwr.osm.buffer.util.HibernateUtil;
+import pwr.osm.buffer.util.Log;
 import pwr.osm.buffer.db.DbMapPosition;
 import pwr.osm.buffer.db.DbPath;
 
 /**
-*	Wątek przeszukujący bazę danych
-* 	- łączy sie z bazą serwera
-*	- przeszukuje tablicę DbPath w celu sprawdzenia czy
-*	  żądana ścieżka nie zostałą wcześniej policzona
-*	- jeśli tak, to odsyła do klienta
+* Thread that checks database for path points.
+* @author Sobot
+*
 */
 public class DbSearchThread implements Callable<List<MapPosition>>{
 	

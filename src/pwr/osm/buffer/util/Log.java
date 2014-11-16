@@ -1,4 +1,4 @@
-package pwr.osm.buffer.server;
+package pwr.osm.buffer.util;
 
 import java.io.PrintWriter;
 import java.io.BufferedWriter;
@@ -26,7 +26,7 @@ public class Log{
 		Date time = new Date();
 		try
 		{
-			logFile = new PrintWriter(new BufferedWriter(new FileWriter("LOG.txt", true)));
+			logFile = new PrintWriter(new BufferedWriter(new FileWriter("OSMBufferServer.log", true)));
 		} catch (IOException e) {
 			System.err.println("IOException: " + e.getMessage());
 		}

@@ -8,16 +8,14 @@ import org.hibernate.SessionFactory;
 
 import pwr.osm.buffer.db.DbMapPosition;
 import pwr.osm.buffer.db.DbPath;
-import pwr.osm.buffer.server.Log;
 import pwr.osm.data.representation.MapPosition;
 import pwr.osm.buffer.util.HibernateUtil;
+import pwr.osm.buffer.util.Log;
 
 /**
-*	Wątek przeszukujący bazę danych
-* 	- łączy sie z bazą serwera
-*	- przeszukuje tablicę DbPath w celu sprawdzenia czy
-*	  żądana ścieżka nie zostałą wcześniej policzona
-*	- jeśli tak, to odsyła do klienta
+* Thread for adding calculated path to database.
+* @author Sobot
+*
 */
 public class DbAddThread implements Runnable{
 	
@@ -42,7 +40,10 @@ public class DbAddThread implements Runnable{
 			log.error("Exception occured: " + e.getMessage());
 		}
 	}
-
+	
+	/**
+	 *	Adds calculated path to database.
+	 */
 	private void AddToDb() {
 		
         SessionFactory sf = HibernateUtil.createSessionFactory();

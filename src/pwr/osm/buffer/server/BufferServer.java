@@ -4,6 +4,9 @@ import java.net.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import pwr.osm.buffer.threads.DbClearThread;
+import pwr.osm.buffer.util.Log;
+
 /**
  * BufforServer that handels packets received from Clients.
  * @author Sobot
@@ -22,6 +25,7 @@ class BufferServer
 		System.out.println("waiting for packets...");
 		@SuppressWarnings("resource")
 		DatagramSocket serverUDPSocket = new DatagramSocket(PORT);   // BufferServer port: 9876
+		execService.execute(new DbClearThread(1));
         while(true)
     	{	
 	      	byte[] receiveData = new byte[5000];

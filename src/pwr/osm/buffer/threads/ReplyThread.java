@@ -8,7 +8,7 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.util.List;
 
-import pwr.osm.buffer.server.Log;
+import pwr.osm.buffer.util.Log;
 import pwr.osm.data.representation.MapPosition;
 
 /**

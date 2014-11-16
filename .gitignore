@@ -29,3 +29,7 @@ local.properties
 
 # TeXlipse plugin
 .texlipse
+
+# Logs
+*.txt
+*.log

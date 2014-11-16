@@ -15,8 +15,14 @@ import pwr.osm.buffer.threads.DbAddThread;
 import pwr.osm.buffer.threads.DbSearchThread;
 import pwr.osm.buffer.threads.FromServerThread;
 import pwr.osm.buffer.threads.ReplyThread;
+import pwr.osm.buffer.util.Log;
 import pwr.osm.data.representation.MapPosition;
 
+/**
+ * Handles packet from client.
+ * @author Sobot
+ *
+ */
 public class RequestHandler implements Runnable{
 	
 	private ExecutorService execService = Executors.newFixedThreadPool(4);
@@ -24,11 +30,19 @@ public class RequestHandler implements Runnable{
 	private byte[] receiveData;
 	private Log log = new Log();
 
+	/**
+	 * Constructor.
+	 * @param receivePacket datagramPacket
+	 * @param receiveData data from client
+	 */
 	public RequestHandler(DatagramPacket receivePacket, byte[] receiveData) {
 		this.receivePacket = receivePacket;
 		this.receiveData = receiveData;
 	}		
 
+	/**
+	 * Creates and coordinates threads needed to handle client request.
+	 */
 	@SuppressWarnings("unchecked")
 	@Override
 	public void run() {	  
