@@ -14,7 +14,7 @@ import pwr.osm.data.representation.MapPosition;
  * Thread that handles connection with MainServer.
  * @author Sobot
  */
-public class ConnectionThread implements Callable<List<MapPosition>>{
+public class FromServerThread implements Callable<List<MapPosition>>{
 	
 	private List<MapPosition> pointsFromClient;
 	
@@ -22,7 +22,7 @@ public class ConnectionThread implements Callable<List<MapPosition>>{
 	 * Constructor.
 	 * @param pointsFromClient points to MainServer
 	 */
-	public ConnectionThread(List<MapPosition> pointsFromClient){
+	public FromServerThread(List<MapPosition> pointsFromClient){
 		
 		this.pointsFromClient = pointsFromClient;
 	}

@@ -145,3 +145,899 @@
 [14:54:49] INFO: message received from SERVER
 [14:54:52] INFO: path sent to Client
 [14:54:52] INFO: path added to Db
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[14:09:19] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[14:57:48] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:05:50] INFO: Program Start
+[15:08:43] INFO: Got package, creating thread to handle
+[15:08:46] ERROR: Exception occured: Error calling Driver#connect
+[15:08:46] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:11:26] INFO: Program Start
+[15:11:36] INFO: Got package, creating thread to handle
+[15:11:40] INFO: Sending path to Client
+[15:11:40] INFO: Adding path to Db
+[15:11:47] ERROR: Exception occured: could not resolve property: path_id of: pwr.osm.buffer.db.DbMapPosition [from pwr.osm.buffer.db.DbMapPosition mp where mp.path_id = :path_id]
+[15:12:31] INFO: Got package, creating thread to handle
+[15:12:31] ERROR: Exception occured: could not resolve property: path_id of: pwr.osm.buffer.db.DbMapPosition [from pwr.osm.buffer.db.DbMapPosition mp where mp.path_id = :path_id]
+[15:12:31] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:15:19] INFO: Program Start
+[15:15:27] INFO: Got package, creating thread to handle
+[15:15:30] INFO: Sending path to Client
+[15:15:30] INFO: Adding path to Db
+[15:15:48] INFO: Got package, creating thread to handle
+[15:15:49] ERROR: Exception occured: could not locate named parameter [id]
+[15:15:49] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:16:26] INFO: Program Start
+[15:16:32] INFO: Got package, creating thread to handle
+[15:16:34] ERROR: Exception occured: could not locate named parameter [id]
+[15:16:34] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:29:13] INFO: Program Start
+[15:29:20] INFO: Got package, creating thread to handle
+[15:29:21] INFO: Sending path to Client
+[15:29:34] INFO: Got package, creating thread to handle
+[15:29:34] ERROR: Exception occured: Index: 0, Size: 0
+[15:29:34] INFO: Sending path to Client
+[15:29:43] INFO: Got package, creating thread to handle
+[15:30:03] INFO: Got package, creating thread to handle
+[15:31:49] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:32:42] INFO: Program Start
+[15:32:47] INFO: Got package, creating thread to handle
+[15:32:49] INFO: Sending path to Client
+[15:34:29] INFO: Got package, creating thread to handle
+[15:34:29] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:35:08] INFO: Program Start
+[15:35:28] INFO: Got package, creating thread to handle
+[15:35:29] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:44:01] INFO: Program Start
+[15:44:16] INFO: Got package, creating thread to handle
+[15:44:18] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:45:08] INFO: Program Start
+[15:45:24] INFO: Got package, creating thread to handle
+[15:45:26] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:46:07] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:46:11] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:47:06] INFO: Program Start
+[15:47:17] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:48:09] INFO: Program Start
+[15:48:14] INFO: Got package, creating thread to handle
+[15:48:17] INFO: Sending path to Client
+[15:48:17] INFO: Adding path to Db
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:49:21] INFO: Program Start
+[15:49:26] INFO: Got package, creating thread to handle
+[15:49:29] INFO: Sending path to Client
+[15:49:29] INFO: Adding path to Db
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:50:20] INFO: Program Start
+[15:50:32] INFO: Got package, creating thread to handle
+[15:50:34] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:51:14] INFO: Program Start
+[15:51:17] INFO: Got package, creating thread to handle
+[15:51:20] INFO: Sending path to Client
+[15:51:20] INFO: Adding path to Db
+[15:51:34] INFO: Got package, creating thread to handle
+[15:51:37] INFO: Sending path to Client
+[15:51:37] INFO: Adding path to Db
+[15:51:42] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:52:29] INFO: Program Start
+[15:52:33] INFO: Got package, creating thread to handle
+[15:52:35] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:53:32] INFO: Program Start
+[15:53:36] INFO: Got package, creating thread to handle
+[15:53:38] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:54:06] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:57:52] INFO: Program Start
+[15:58:00] INFO: Got package, creating thread to handle
+[15:58:04] INFO: Sending path to Client
+[15:58:04] INFO: Adding path to Db
+[15:58:13] INFO: Got package, creating thread to handle
+[15:58:13] INFO: Sending path to Client
+[15:58:19] INFO: Got package, creating thread to handle
+[15:58:32] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[15:58:50] INFO: Program Start
+[15:58:54] INFO: Got package, creating thread to handle
+[15:58:57] INFO: Sending path to Client
+[15:58:57] INFO: Adding path to Db
+[15:59:03] INFO: Got package, creating thread to handle
+[15:59:06] INFO: Sending path to Client
+[15:59:06] INFO: Adding path to Db
+[15:59:10] INFO: Got package, creating thread to handle
+[15:59:48] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:02:30] INFO: Program Start
+[16:03:21] INFO: Got package, creating thread to handle
+[16:03:23] INFO: Sending path to Client
+[16:03:35] INFO: Got package, creating thread to handle
+[16:03:35] INFO: Sending path to Client
+[16:03:50] INFO: Got package, creating thread to handle
+[16:03:53] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:08:48] INFO: Program Start
+[16:09:29] INFO: Got package, creating thread to handle
+[16:09:32] INFO: Sending path to Client
+[16:09:32] INFO: Adding path to Db
+[16:09:38] INFO: Got package, creating thread to handle
+[16:09:41] INFO: Sending path to Client
+[16:09:41] INFO: Adding path to Db
+[16:09:53] INFO: Got package, creating thread to handle
+[16:10:27] INFO: Got package, creating thread to handle
+[16:10:35] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:12:25] INFO: Program Start
+[16:12:32] INFO: Got package, creating thread to handle
+[16:12:35] INFO: Sending path to Client
+[16:12:35] INFO: Adding path to Db
+[16:12:42] INFO: Got package, creating thread to handle
+[16:12:42] INFO: Sending path to Client
+[16:12:54] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:14:29] INFO: Program Start
+[16:14:34] INFO: Got package, creating thread to handle
+[16:14:37] INFO: Sending path to Client
+[16:14:37] INFO: Adding path to Db
+[16:14:42] INFO: Got package, creating thread to handle
+[16:14:45] INFO: Sending path to Client
+[16:15:28] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:16:19] INFO: Program Start
+[16:16:48] INFO: Got package, creating thread to handle
+[16:16:51] INFO: Sending path to Client
+[16:16:51] INFO: Adding path to Db
+[16:17:00] INFO: Got package, creating thread to handle
+[16:17:03] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:17:34] INFO: Program Start
+[16:17:45] INFO: Got package, creating thread to handle
+[16:17:48] INFO: Sending path to Client
+[16:17:48] INFO: Adding path to Db
+[16:17:53] INFO: Got package, creating thread to handle
+[16:17:56] INFO: Sending path to Client
+[16:18:19] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:20:51] INFO: Program Start
+[16:21:05] INFO: Got package, creating thread to handle
+[16:21:08] INFO: Sending path to Client
+[16:21:08] INFO: Adding path to Db
+[16:21:12] INFO: Got package, creating thread to handle
+[16:21:16] INFO: Sending path to Client
+[16:21:34] INFO: Got package, creating thread to handle
+[16:21:37] INFO: Got package, creating thread to handle
+[16:22:20] INFO: Got package, creating thread to handle
+[16:22:24] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:23:06] INFO: Program Start
+[16:23:12] INFO: Got package, creating thread to handle
+[16:23:15] INFO: Sending path to Client
+[16:23:15] INFO: Adding path to Db
+[16:23:22] INFO: Got package, creating thread to handle
+[16:23:25] INFO: Sending path to Client
+[16:23:25] INFO: Adding path to Db
+[16:23:28] INFO: Got package, creating thread to handle
+[16:24:14] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:24:27] INFO: Program Start
+[16:24:28] INFO: Got package, creating thread to handle
+[16:24:31] INFO: Sending path to Client
+[16:24:31] INFO: Adding path to Db
+[16:24:37] INFO: Got package, creating thread to handle
+[16:24:40] INFO: Sending path to Client
+[16:24:40] INFO: Adding path to Db
+[16:24:48] INFO: Got package, creating thread to handle
+[16:25:19] INFO: Got package, creating thread to handle
+[16:25:37] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:26:29] INFO: Program Start
+[16:26:42] INFO: Got package, creating thread to handle
+[16:26:45] INFO: Sending path to Client
+[16:26:45] INFO: Adding path to Db
+[16:26:50] INFO: Got package, creating thread to handle
+[16:26:53] INFO: Sending path to Client
+[16:26:53] INFO: Adding path to Db
+[16:26:56] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:28:04] INFO: Program Start
+[16:28:17] INFO: Got package, creating thread to handle
+[16:28:21] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:28:35] INFO: Program Start
+[16:28:40] INFO: Got package, creating thread to handle
+[16:28:43] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:29:09] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:30:01] INFO: Program Start
+[16:30:09] INFO: Got package, creating thread to handle
+[16:30:12] INFO: Sending path to Client
+[16:30:12] INFO: Adding path to Db
+[16:30:17] INFO: Got package, creating thread to handle
+[16:30:20] INFO: Sending path to Client
+[16:30:31] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:32:24] INFO: Program Start
+[16:32:27] INFO: Got package, creating thread to handle
+[16:32:30] INFO: Sending path to Client
+[16:32:30] INFO: Adding path to Db
+[16:32:41] INFO: Got package, creating thread to handle
+[16:32:44] INFO: Sending path to Client
+[16:32:44] INFO: Adding path to Db
+[16:32:51] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:33:51] INFO: Program Start
+[16:33:56] INFO: Got package, creating thread to handle
+[16:33:59] INFO: Sending path to Client
+[16:33:59] INFO: Adding path to Db
+[16:34:09] INFO: Got package, creating thread to handle
+[16:34:13] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:36:51] INFO: Program Start
+[16:36:55] INFO: Got package, creating thread to handle
+[16:36:58] INFO: Sending path to Client
+[16:36:58] INFO: Adding path to Db
+[16:37:02] INFO: Got package, creating thread to handle
+[16:37:05] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:44:36] INFO: Program Start
+[16:44:40] INFO: Got package, creating thread to handle
+[16:44:43] INFO: Sending path to Client
+[16:44:43] INFO: Adding path to Db
+[16:44:47] INFO: Got package, creating thread to handle
+[16:44:50] INFO: Sending path to Client
+[16:44:50] INFO: Adding path to Db
+[16:44:53] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:46:12] INFO: Program Start
+[16:46:16] INFO: Got package, creating thread to handle
+[16:46:19] INFO: Sending path to Client
+[16:46:19] INFO: Adding path to Db
+[16:46:23] INFO: Got package, creating thread to handle
+[16:46:26] INFO: Sending path to Client
+[16:46:26] INFO: Adding path to Db
+[16:46:30] INFO: Got package, creating thread to handle
+[16:46:45] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:48:21] INFO: Program Start
+[16:48:45] INFO: Got package, creating thread to handle
+[16:48:48] INFO: Sending path to Client
+[16:48:48] INFO: Adding path to Db
+[16:48:52] INFO: Got package, creating thread to handle
+[16:48:55] INFO: Sending path to Client
+[16:48:55] INFO: Adding path to Db
+[16:49:01] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:50:03] INFO: Program Start
+[16:50:08] INFO: Got package, creating thread to handle
+[16:50:11] INFO: Sending path to Client
+[16:50:11] INFO: Adding path to Db
+[16:50:15] INFO: Got package, creating thread to handle
+[16:50:18] INFO: Sending path to Client
+[16:50:18] INFO: Adding path to Db
+[16:50:23] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[16:59:20] INFO: Program Start
+[16:59:23] INFO: Got package, creating thread to handle
+[16:59:26] INFO: Sending path to Client
+[16:59:26] INFO: Adding path to Db
+[16:59:38] INFO: Got package, creating thread to handle
+[16:59:41] INFO: Sending path to Client
+[16:59:41] INFO: Adding path to Db
+[16:59:44] INFO: Got package, creating thread to handle
+[17:01:50] INFO: Got package, creating thread to handle
+[17:01:50] INFO: Got package, creating thread to handle
+[17:01:50] INFO: Got package, creating thread to handle
+[17:02:53] INFO: Got package, creating thread to handle
+[17:02:53] INFO: Got package, creating thread to handle
+[17:02:53] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[17:28:53] INFO: Program Start
+[17:28:58] INFO: Got package, creating thread to handle
+[17:28:58] INFO: Got package, creating thread to handle
+[17:28:58] INFO: Got package, creating thread to handle
+[17:29:02] INFO: Sending path to Client
+[17:29:02] INFO: Sending path to Client
+[17:29:02] INFO: Sending path to Client
+[17:29:02] INFO: Adding path to Db
+[17:29:02] INFO: Adding path to Db
+[17:29:02] INFO: Adding path to Db
+[17:29:19] INFO: Got package, creating thread to handle
+[17:29:19] INFO: Got package, creating thread to handle
+[17:29:19] INFO: Got package, creating thread to handle
+[17:29:23] INFO: Sending path to Client
+[17:29:23] INFO: Adding path to Db
+[17:35:48] INFO: Got package, creating thread to handle
+[17:35:48] INFO: Got package, creating thread to handle
+[17:35:48] INFO: Got package, creating thread to handle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[18:19:45] INFO: Program Start
+[18:19:49] INFO: Got package, creating thread to handle
+[18:19:49] INFO: Got package, creating thread to handle
+[18:19:49] INFO: Got package, creating thread to handle
+[18:19:49] INFO: message sent to SERVER
+[18:19:49] INFO: message sent to SERVER
+[18:19:49] INFO: message sent to SERVER
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[18:20:54] INFO: Program Start
+[18:20:57] INFO: Got package, creating thread to handle
+[18:20:57] INFO: Got package, creating thread to handle
+[18:20:57] INFO: Got package, creating thread to handle
+[18:20:57] INFO: message sent to SERVER
+[18:20:57] INFO: message sent to SERVER
+[18:20:57] INFO: message sent to SERVER
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[18:22:45] INFO: Program Start
+[18:22:48] INFO: Got package, creating thread to handle
+[18:22:48] INFO: Got package, creating thread to handle
+[18:22:48] INFO: Got package, creating thread to handle
+[18:22:48] INFO: message sent to SERVER
+[18:22:48] INFO: message sent to SERVER
+[18:22:48] INFO: message sent to SERVER
+[18:22:52] INFO: Sending path to Client
+[18:22:52] INFO: Adding path to Db
+[18:22:52] INFO: Sending path to Client
+[18:22:52] INFO: Adding path to Db
+[18:22:52] INFO: Sending path to Client
+[18:22:52] INFO: Adding path to Db
+[18:23:17] INFO: Got package, creating thread to handle
+[18:23:17] INFO: Got package, creating thread to handle
+[18:23:17] INFO: message sent to SERVER
+[18:23:17] INFO: Got package, creating thread to handle
+[18:23:17] INFO: message sent to SERVER
+[18:23:17] INFO: message sent to SERVER
+[18:23:20] INFO: Sending path to Client
+[18:23:20] INFO: Adding path to Db
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[18:24:20] INFO: Program Start
+[18:24:24] INFO: Got package, creating thread to handle
+[18:24:24] INFO: Got package, creating thread to handle
+[18:24:24] INFO: Got package, creating thread to handle
+[18:24:24] INFO: message sent to SERVER
+[18:24:24] INFO: message sent to SERVER
+[18:24:24] INFO: message sent to SERVER
+[18:24:29] INFO: Sending path to Client
+[18:24:29] INFO: Adding path to Db
+[18:24:29] INFO: Sending path to Client
+[18:24:29] INFO: Adding path to Db
+[18:24:29] INFO: Sending path to Client
+[18:24:29] INFO: Adding path to Db
+[18:24:43] INFO: Got package, creating thread to handle
+[18:24:43] INFO: Got package, creating thread to handle
+[18:24:43] INFO: message sent to SERVER
+[18:24:43] INFO: Got package, creating thread to handle
+[18:24:43] INFO: message sent to SERVER
+[18:24:43] INFO: message sent to SERVER
+[18:24:47] INFO: Sending path to Client
+[18:24:47] INFO: Adding path to Db
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[18:31:08] INFO: Program Start
+[18:31:12] INFO: Got package, creating thread to handle
+[18:31:12] INFO: Got package, creating thread to handle
+[18:31:12] INFO: Got package, creating thread to handle
+[18:31:12] INFO: message sent to SERVER
+[18:31:12] INFO: message sent to SERVER
+[18:31:12] INFO: message sent to SERVER
+[18:31:16] INFO: Sending path to Client
+[18:31:16] INFO: Adding path to Db
+[18:31:16] INFO: Sending path to Client
+[18:31:16] INFO: Adding path to Db
+[18:31:16] INFO: Sending path to Client
+[18:31:16] INFO: Adding path to Db
+[18:31:26] INFO: Got package, creating thread to handle
+[18:31:26] INFO: Got package, creating thread to handle
+[18:31:26] INFO: message sent to SERVER
+[18:31:26] INFO: Got package, creating thread to handle
+[18:31:26] INFO: message sent to SERVER
+[18:31:26] INFO: message sent to SERVER
+[18:31:29] INFO: Sending path to Client
+[18:31:29] INFO: Adding path to Db
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[18:33:28] INFO: Program Start
+[18:33:32] INFO: Got package, creating thread to handle
+[18:33:32] INFO: Got package, creating thread to handle
+[18:33:32] INFO: Got package, creating thread to handle
+[18:33:32] INFO: message sent to SERVER
+[18:33:32] INFO: message sent to SERVER
+[18:33:32] INFO: message sent to SERVER
+[18:33:36] INFO: Sending path to Client
+[18:33:36] INFO: Adding path to Db
+[18:33:36] INFO: Sending path to Client
+[18:33:36] INFO: Adding path to Db
+[18:33:36] INFO: Sending path to Client
+[18:33:36] INFO: Adding path to Db
+[18:33:46] INFO: Got package, creating thread to handle
+[18:33:46] INFO: Got package, creating thread to handle
+[18:33:46] INFO: message sent to SERVER
+[18:33:46] INFO: Got package, creating thread to handle
+[18:33:46] INFO: message sent to SERVER
+[18:33:46] INFO: message sent to SERVER
+[18:33:49] INFO: Sending path to Client
+[18:33:49] INFO: Adding path to Db
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[18:39:20] INFO: Program Start
+[18:39:28] INFO: Got package, creating thread to handle
+[18:39:28] INFO: Got package, creating thread to handle
+[18:39:28] INFO: Got package, creating thread to handle
+[18:39:28] INFO: message sent to SERVER
+[18:39:28] INFO: message sent to SERVER
+[18:39:28] INFO: message sent to SERVER
+[18:39:32] INFO: Sending path to Client
+[18:39:32] INFO: Adding path to Db
+[18:39:32] INFO: Sending path to Client
+[18:39:32] INFO: Adding path to Db
+[18:39:32] INFO: Sending path to Client
+[18:39:32] INFO: Adding path to Db
+[18:39:39] INFO: Got package, creating thread to handle
+[18:39:39] INFO: message sent to SERVER
+[18:39:39] INFO: Got package, creating thread to handle
+[18:39:39] INFO: Got package, creating thread to handle
+[18:39:39] INFO: message sent to SERVER
+[18:39:39] INFO: message sent to SERVER
+[18:39:42] INFO: Sending path to Client
+[18:39:42] INFO: Adding path to Db
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[18:53:58] INFO: Program Start
+[18:54:15] INFO: Got package, creating thread to handle
+[18:54:15] INFO: Got package, creating thread to handle
+[18:54:15] INFO: Got package, creating thread to handle
+[18:54:15] INFO: message sent to SERVER
+[18:54:15] INFO: message sent to SERVER
+[18:54:15] INFO: message sent to SERVER
+[18:54:18] INFO: Sending path to Client
+[18:54:18] INFO: Adding path to Db
+[18:54:18] INFO: Sending path to Client
+[18:54:18] INFO: Adding path to Db
+[18:54:18] INFO: Sending path to Client
+[18:54:18] INFO: Adding path to Db
+[18:54:27] INFO: Got package, creating thread to handle
+[18:54:27] INFO: Got package, creating thread to handle
+[18:54:27] INFO: message sent to SERVER
+[18:54:27] INFO: Got package, creating thread to handle
+[18:54:27] INFO: message sent to SERVER
+[18:54:27] INFO: message sent to SERVER
+[18:54:30] INFO: Sending path to Client
+[18:54:30] INFO: Adding path to Db
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[18:57:51] INFO: Program Start
+[18:57:57] INFO: Got package, creating thread to handle
+[18:57:57] INFO: Got package, creating thread to handle
+[18:57:57] INFO: Got package, creating thread to handle
+[18:57:57] INFO: message sent to SERVER
+[18:57:57] INFO: message sent to SERVER
+[18:57:57] INFO: message sent to SERVER
+[18:58:00] INFO: Sending path to Client
+[18:58:00] INFO: Sending path to Client
+[18:58:00] INFO: Adding path to Db
+[18:58:00] INFO: Adding path to Db
+[18:58:00] INFO: Sending path to Client
+[18:58:00] INFO: Adding path to Db
+[18:58:06] INFO: Got package, creating thread to handle
+[18:58:06] INFO: message sent to SERVER
+[18:58:06] INFO: Got package, creating thread to handle
+[18:58:06] INFO: Got package, creating thread to handle
+[18:58:06] INFO: message sent to SERVER
+[18:58:06] INFO: message sent to SERVER
+[18:58:09] INFO: Sending path to Client
+[18:58:09] INFO: Adding path to Db
+[18:58:09] INFO: Sending path to Client
+[18:58:09] INFO: Sending path to Client
+[18:58:09] INFO: Adding path to Db
+[18:58:09] INFO: Adding path to Db
+[18:58:14] INFO: Got package, creating thread to handle
+[18:58:14] INFO: Got package, creating thread to handle
+[18:58:14] INFO: Got package, creating thread to handle
+[18:58:14] INFO: message sent to SERVER
+[18:58:14] INFO: message sent to SERVER
+[18:58:14] INFO: message sent to SERVER
+[18:58:17] INFO: Sending path to Client
+[18:58:17] INFO: Adding path to Db
+[18:58:17] INFO: Sending path to Client
+[18:58:17] INFO: Adding path to Db
+[18:58:17] INFO: Sending path to Client
+[18:58:17] INFO: Adding path to Db
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[19:52:39] INFO: Program Start
+[19:52:54] INFO: Got package, creating thread to handle
+[19:52:54] INFO: Got package, creating thread to handle
+[19:52:54] INFO: Got package, creating thread to handle
+[19:52:54] INFO: message sent to SERVER
+[19:52:54] INFO: message sent to SERVER
+[19:52:54] INFO: message sent to SERVER
+[19:52:57] INFO: Sending path to Client
+[19:52:57] INFO: Adding path to Db
+[19:52:57] INFO: Sending path to Client
+[19:52:57] INFO: Adding path to Db
+[19:52:57] INFO: Sending path to Client
+[19:52:57] INFO: Adding path to Db
+[19:53:03] INFO: Got package, creating thread to handle
+[19:53:03] INFO: Got package, creating thread to handle
+[19:53:03] INFO: message sent to SERVER
+[19:53:03] INFO: Got package, creating thread to handle
+[19:53:03] INFO: message sent to SERVER
+[19:53:03] INFO: message sent to SERVER
+[19:53:04] INFO: Sending path to Client
+[19:53:04] INFO: Sending path to Client
+[19:53:04] INFO: Sending path to Client
+[19:53:26] INFO: Got package, creating thread to handle
+[19:53:26] INFO: message sent to SERVER
+[19:53:26] INFO: Got package, creating thread to handle
+[19:53:26] INFO: Got package, creating thread to handle
+[19:53:26] INFO: message sent to SERVER
+[19:53:26] INFO: message sent to SERVER
+[19:53:26] INFO: Sending path to Client
+[19:53:26] INFO: Sending path to Client
+[19:53:26] INFO: Sending path to Client
+[19:53:39] INFO: Got package, creating thread to handle
+[19:53:39] INFO: Got package, creating thread to handle
+[19:53:39] INFO: message sent to SERVER
+[19:53:39] INFO: Got package, creating thread to handle
+[19:53:39] INFO: message sent to SERVER
+[19:53:39] INFO: message sent to SERVER
+[19:53:39] INFO: Sending path to Client
+[19:53:39] INFO: Sending path to Client
+[19:53:40] INFO: Sending path to Client
+[19:53:51] INFO: Got package, creating thread to handle
+[19:53:51] INFO: message sent to SERVER
+[19:53:51] INFO: Got package, creating thread to handle
+[19:53:51] INFO: Got package, creating thread to handle
+[19:53:51] INFO: message sent to SERVER
+[19:53:51] INFO: message sent to SERVER
+[19:53:52] INFO: Sending path to Client
+[19:53:52] INFO: Sending path to Client
+[19:53:52] INFO: Sending path to Client
+[19:54:32] INFO: Got package, creating thread to handle
+[19:54:32] INFO: Got package, creating thread to handle
+[19:54:32] INFO: Got package, creating thread to handle
+[19:54:32] INFO: message sent to SERVER
+[19:54:32] INFO: message sent to SERVER
+[19:54:33] INFO: message sent to SERVER
+[19:54:33] INFO: Sending path to Client
+[19:54:33] INFO: Sending path to Client
+[19:54:33] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[19:55:20] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[19:55:27] INFO: Program Start
+[19:55:33] INFO: Got package, creating thread to handle
+[19:55:33] INFO: Got package, creating thread to handle
+[19:55:33] INFO: Got package, creating thread to handle
+[19:55:33] INFO: message sent to SERVER
+[19:55:33] INFO: message sent to SERVER
+[19:55:33] INFO: message sent to SERVER
+[19:55:35] INFO: Sending path to Client
+[19:55:35] INFO: Sending path to Client
+[19:55:35] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[19:56:07] INFO: Program Start
+[19:56:14] INFO: Got package, creating thread to handle
+[19:56:14] INFO: Got package, creating thread to handle
+[19:56:14] INFO: message sent to SERVER
+[19:56:14] INFO: Got package, creating thread to handle
+[19:56:14] INFO: message sent to SERVER
+[19:56:14] INFO: message sent to SERVER
+[19:56:14] INFO: Sending path to Client
+[19:56:14] INFO: Sending path to Client
+[19:56:14] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[19:58:03] INFO: Program Start
+[19:58:09] INFO: Got package, creating thread to handle
+[19:58:09] INFO: Got package, creating thread to handle
+[19:58:09] INFO: Got package, creating thread to handle
+[19:58:09] INFO: message sent to SERVER
+[19:58:09] INFO: message sent to SERVER
+[19:58:09] INFO: message sent to SERVER
+[19:58:12] INFO: Sending path to Client
+[19:58:12] INFO: Adding path to Db
+[19:58:12] INFO: Sending path to Client
+[19:58:12] INFO: Adding path to Db
+[19:58:12] INFO: Sending path to Client
+[19:58:12] INFO: Adding path to Db
+[19:58:20] INFO: Got package, creating thread to handle
+[19:58:20] INFO: Got package, creating thread to handle
+[19:58:20] INFO: Got package, creating thread to handle
+[19:58:20] INFO: message sent to SERVER
+[19:58:20] INFO: message sent to SERVER
+[19:58:20] INFO: message sent to SERVER
+[19:58:20] INFO: Sending path to Client
+[19:58:21] INFO: Sending path to Client
+[19:58:21] INFO: Sending path to Client
+[19:58:36] INFO: Got package, creating thread to handle
+[19:58:36] INFO: Got package, creating thread to handle
+[19:58:36] INFO: Got package, creating thread to handle
+[19:58:36] INFO: message sent to SERVER
+[19:58:36] INFO: message sent to SERVER
+[19:58:36] INFO: message sent to SERVER
+[19:58:36] INFO: Sending path to Client
+[19:58:36] INFO: Sending path to Client
+[19:58:36] INFO: Sending path to Client
+[19:59:03] INFO: Got package, creating thread to handle
+[19:59:03] INFO: message sent to SERVER
+[19:59:03] INFO: Got package, creating thread to handle
+[19:59:03] INFO: Got package, creating thread to handle
+[19:59:03] INFO: message sent to SERVER
+[19:59:03] INFO: message sent to SERVER
+[19:59:03] INFO: Sending path to Client
+[19:59:03] INFO: Sending path to Client
+[19:59:06] INFO: Sending path to Client
+[19:59:06] INFO: Adding path to Db
+[19:59:30] INFO: Got package, creating thread to handle
+[19:59:30] INFO: Got package, creating thread to handle
+[19:59:30] INFO: Got package, creating thread to handle
+[19:59:30] INFO: message sent to SERVER
+[19:59:30] INFO: message sent to SERVER
+[19:59:30] INFO: message sent to SERVER
+[19:59:30] INFO: Sending path to Client
+[19:59:30] INFO: Sending path to Client
+[19:59:31] INFO: Sending path to Client
+[20:00:15] INFO: Got package, creating thread to handle
+[20:00:15] INFO: Got package, creating thread to handle
+[20:00:15] INFO: message sent to SERVER
+[20:00:15] INFO: Got package, creating thread to handle
+[20:00:15] INFO: message sent to SERVER
+[20:00:15] INFO: message sent to SERVER
+[20:00:15] INFO: Sending path to Client
+[20:00:16] INFO: Sending path to Client
+[20:00:16] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:01:32] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:01:44] INFO: Program Start
+[20:01:48] INFO: Got package, creating thread to handle
+[20:01:48] INFO: Got package, creating thread to handle
+[20:01:48] INFO: Got package, creating thread to handle
+[20:01:48] INFO: message sent to SERVER
+[20:01:48] INFO: message sent to SERVER
+[20:01:48] INFO: message sent to SERVER
+[20:01:49] INFO: Sending path to Client
+[20:01:51] INFO: Sending path to Client
+[20:01:51] INFO: Adding path to Db
+[20:01:51] INFO: Sending path to Client
+[20:01:51] INFO: Adding path to Db
+[20:01:58] INFO: Got package, creating thread to handle
+[20:01:58] INFO: Got package, creating thread to handle
+[20:01:58] INFO: Got package, creating thread to handle
+[20:01:58] INFO: message sent to SERVER
+[20:01:58] INFO: message sent to SERVER
+[20:01:58] INFO: message sent to SERVER
+[20:01:58] INFO: Sending path to Client
+[20:01:58] INFO: Sending path to Client
+[20:01:58] INFO: Sending path to Client
+[20:02:08] INFO: Got package, creating thread to handle
+[20:02:08] INFO: Got package, creating thread to handle
+[20:02:08] INFO: message sent to SERVER
+[20:02:08] INFO: Got package, creating thread to handle
+[20:02:08] INFO: message sent to SERVER
+[20:02:08] INFO: message sent to SERVER
+[20:02:08] INFO: Sending path to Client
+[20:02:08] INFO: Sending path to Client
+[20:02:11] INFO: Sending path to Client
+[20:02:11] INFO: Adding path to Db
+[20:02:27] INFO: Got package, creating thread to handle
+[20:02:27] INFO: Got package, creating thread to handle
+[20:02:27] INFO: Got package, creating thread to handle
+[20:02:27] INFO: message sent to SERVER
+[20:02:27] INFO: message sent to SERVER
+[20:02:27] INFO: message sent to SERVER
+[20:02:28] INFO: Sending path to Client
+[20:02:30] INFO: Sending path to Client
+[20:02:30] INFO: Adding path to Db
+[20:02:30] INFO: Sending path to Client
+[20:02:30] INFO: Adding path to Db
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:12:05] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:12:19] INFO: Program Start
+[20:12:27] INFO: Got package, creating thread to handle
+[20:12:27] INFO: message sent to SERVER
+[20:12:27] INFO: Got package, creating thread to handle
+[20:12:27] INFO: Got package, creating thread to handle
+[20:12:27] INFO: message sent to SERVER
+[20:12:27] INFO: message sent to SERVER
+[20:12:27] ERROR: Exception occured: null
+[20:12:27] INFO: Sending path to Client
+[20:12:28] INFO: Sending path to Client
+[20:12:28] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:13:34] INFO: Program Start
+[20:13:38] INFO: Got package, creating thread to handle
+[20:13:38] INFO: Got package, creating thread to handle
+[20:13:38] INFO: Got package, creating thread to handle
+[20:13:38] INFO: message sent to SERVER
+[20:13:38] INFO: message sent to SERVER
+[20:13:38] INFO: message sent to SERVER
+[20:13:38] ERROR: Exception occured: null
+[20:13:38] INFO: Sending path to Client
+[20:13:39] ERROR: Exception occured: null
+[20:13:39] INFO: Sending path to Client
+[20:13:41] INFO: Sending path to Client
+[20:13:41] INFO: Adding path to Db
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:16:40] INFO: Program Start
+[20:16:43] INFO: Got package, creating thread to handle
+[20:16:43] INFO: Got package, creating thread to handle
+[20:16:43] INFO: Got package, creating thread to handle
+[20:16:43] INFO: message sent to SERVER
+[20:16:43] INFO: message sent to SERVER
+[20:16:43] INFO: message sent to SERVER
+[20:16:45] INFO: Sending path to Client
+[20:16:46] INFO: Sending path to Client
+[20:16:46] INFO: Adding path to Db
+[20:16:46] INFO: Sending path to Client
+[20:16:46] INFO: Adding path to Db
+[20:16:56] INFO: Got package, creating thread to handle
+[20:16:56] INFO: message sent to SERVER
+[20:16:56] INFO: Got package, creating thread to handle
+[20:16:56] INFO: Got package, creating thread to handle
+[20:16:56] INFO: message sent to SERVER
+[20:16:56] INFO: message sent to SERVER
+[20:16:56] INFO: Sending path to Client
+[20:16:56] INFO: Sending path to Client
+[20:16:56] INFO: Sending path to Client
+[20:17:09] INFO: Got package, creating thread to handle
+[20:17:09] INFO: Got package, creating thread to handle
+[20:17:09] INFO: message sent to SERVER
+[20:17:09] INFO: Got package, creating thread to handle
+[20:17:09] INFO: message sent to SERVER
+[20:17:09] INFO: message sent to SERVER
+[20:17:09] INFO: Sending path to Client
+[20:17:10] INFO: Sending path to Client
+[20:17:12] INFO: Sending path to Client
+[20:17:12] INFO: Adding path to Db
+[20:18:15] INFO: Got package, creating thread to handle
+[20:18:15] INFO: Got package, creating thread to handle
+[20:18:15] INFO: Got package, creating thread to handle
+[20:18:15] INFO: message sent to SERVER
+[20:18:15] INFO: message sent to SERVER
+[20:18:15] INFO: message sent to SERVER
+[20:18:15] INFO: Sending path to Client
+[20:18:15] INFO: Sending path to Client
+[20:18:15] INFO: Sending path to Client
+[20:21:44] INFO: Got package, creating thread to handle
+[20:21:44] INFO: Got package, creating thread to handle
+[20:21:44] INFO: Got package, creating thread to handle
+[20:21:44] INFO: message sent to SERVER
+[20:21:44] INFO: message sent to SERVER
+[20:21:44] INFO: message sent to SERVER
+[20:21:45] INFO: Sending path to Client
+[20:21:45] INFO: Sending path to Client
+[20:21:45] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:22:51] INFO: Program Start
+[20:23:02] INFO: Got package, creating thread to handle
+[20:23:02] INFO: Got package, creating thread to handle
+[20:23:02] INFO: Got package, creating thread to handle
+[20:23:02] INFO: message sent to SERVER
+[20:23:02] INFO: message sent to SERVER
+[20:23:02] INFO: message sent to SERVER
+[20:23:04] INFO: Sending path to Client
+[20:23:04] INFO: Sending path to Client
+[20:23:04] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:23:51] INFO: Program Start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:24:01] INFO: Program Start
+[20:24:05] INFO: Got package, creating thread to handle
+[20:24:05] INFO: Got package, creating thread to handle
+[20:24:05] INFO: Got package, creating thread to handle
+[20:24:05] INFO: message sent to SERVER
+[20:24:05] INFO: message sent to SERVER
+[20:24:05] INFO: message sent to SERVER
+[20:24:06] INFO: Sending path to Client
+[20:24:06] INFO: Sending path to Client
+[20:24:06] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:25:20] INFO: Program Start
+[20:25:22] INFO: Got package, creating thread to handle
+[20:25:22] INFO: Got package, creating thread to handle
+[20:25:22] INFO: Got package, creating thread to handle
+[20:25:22] INFO: message sent to SERVER
+[20:25:22] INFO: message sent to SERVER
+[20:25:22] INFO: message sent to SERVER
+[20:25:24] INFO: Sending path to Client
+[20:25:24] INFO: Sending path to Client
+[20:25:24] INFO: Sending path to Client
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:28:08] INFO: Program Start
+[20:28:11] INFO: Got package, creating thread to handle
+[20:28:11] INFO: Got package, creating thread to handle
+[20:28:11] INFO: Got package, creating thread to handle
+[20:28:11] INFO: message sent to SERVER
+[20:28:11] INFO: message sent to SERVER
+[20:28:11] INFO: message sent to SERVER
+[20:28:14] INFO: Sending path to Client
+[20:28:14] INFO: Adding path to Db
+[20:28:14] INFO: Sending path to Client
+[20:28:14] INFO: Adding path to Db
+[20:28:14] INFO: Sending path to Client
+[20:28:14] INFO: Adding path to Db
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:28:38] INFO: Program Start
+[20:28:48] INFO: Got package, creating thread to handle
+[20:28:48] INFO: Got package, creating thread to handle
+[20:28:48] INFO: Got package, creating thread to handle
+[20:28:48] INFO: message sent to SERVER
+[20:28:48] INFO: message sent to SERVER
+[20:28:48] INFO: message sent to SERVER
+[20:28:49] INFO: Sending path to Client
+[20:28:49] INFO: Sending path to Client
+[20:28:49] INFO: Sending path to Client
+[20:29:10] INFO: Got package, creating thread to handle
+[20:29:10] INFO: Got package, creating thread to handle
+[20:29:10] INFO: Got package, creating thread to handle
+[20:29:10] INFO: message sent to SERVER
+[20:29:10] INFO: message sent to SERVER
+[20:29:10] INFO: message sent to SERVER
+[20:29:14] INFO: Sending path to Client
+[20:29:14] INFO: Adding path to Db
+[20:29:14] INFO: Sending path to Client
+[20:29:14] INFO: Adding path to Db
+[20:29:14] INFO: Sending path to Client
+[20:29:14] INFO: Adding path to Db
+[20:29:25] INFO: Got package, creating thread to handle
+[20:29:25] INFO: Got package, creating thread to handle
+[20:29:25] INFO: Got package, creating thread to handle
+[20:29:25] INFO: message sent to SERVER
+[20:29:25] INFO: message sent to SERVER
+[20:29:25] INFO: message sent to SERVER
+[20:29:25] INFO: Sending path to Client
+[20:29:25] INFO: Sending path to Client
+[20:29:25] INFO: Sending path to Client
+[20:29:40] INFO: Got package, creating thread to handle
+[20:29:40] INFO: message sent to SERVER
+[20:29:40] INFO: Got package, creating thread to handle
+[20:29:40] INFO: message sent to SERVER
+[20:29:40] INFO: Got package, creating thread to handle
+[20:29:40] INFO: message sent to SERVER
+[20:29:40] INFO: Sending path to Client
+[20:29:40] INFO: Sending path to Client
+[20:29:43] INFO: Sending path to Client
+[20:29:43] INFO: Adding path to Db
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:35:39] INFO: Program Start
+[20:35:47] INFO: Got package, creating thread to handle
+[20:35:47] INFO: Got package, creating thread to handle
+[20:35:47] INFO: Got package, creating thread to handle
+[20:35:47] INFO: message sent to SERVER
+[20:35:47] INFO: message sent to SERVER
+[20:35:47] INFO: message sent to SERVER
+[20:35:48] INFO: Sending path to Client
+[20:35:48] INFO: Sending path to Client
+[20:35:48] INFO: Sending path to Client
+[20:35:58] INFO: Got package, creating thread to handle
+[20:35:58] INFO: Got package, creating thread to handle
+[20:35:58] INFO: Got package, creating thread to handle
+[20:35:58] INFO: message sent to SERVER
+[20:35:58] INFO: message sent to SERVER
+[20:35:58] INFO: message sent to SERVER
+[20:35:59] INFO: Sending path to Client
+[20:35:59] INFO: Sending path to Client
+[20:36:01] INFO: Sending path to Client
+[20:36:01] INFO: Adding path to Db
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[20:38:30] INFO: Program Start
+[20:38:34] INFO: Got package, creating thread to handle
+[20:38:34] INFO: Got package, creating thread to handle
+[20:38:34] INFO: Got package, creating thread to handle
+[20:38:34] INFO: message sent to SERVER
+[20:38:34] INFO: message sent to SERVER
+[20:38:34] INFO: message sent to SERVER
+[20:38:35] INFO: Sending path to Client
+[20:38:35] INFO: Sending path to Client
+[20:38:35] INFO: Sending path to Client
