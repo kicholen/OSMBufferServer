@@ -13,9 +13,11 @@ import java.util.concurrent.Future;
 
 import pwr.osm.buffer.threads.DbAddThread;
 import pwr.osm.buffer.threads.DbSearchThread;
-import pwr.osm.buffer.threads.FromServerThread;
+import pwr.osm.buffer.threads.ToServerThread;
 import pwr.osm.buffer.threads.ReplyThread;
 import pwr.osm.buffer.util.Log;
+import pwr.osm.connection.Information;
+import pwr.osm.connection.Message;
 import pwr.osm.data.representation.MapPosition;
 
 /**
@@ -26,6 +28,7 @@ import pwr.osm.data.representation.MapPosition;
 public class RequestHandler implements Runnable{
 	
 	private ExecutorService execService = Executors.newFixedThreadPool(4);
+	private long id;
 	private DatagramPacket receivePacket;
 	private byte[] receiveData;
 	private Log log = new Log();
@@ -35,7 +38,8 @@ public class RequestHandler implements Runnable{
 	 * @param receivePacket datagramPacket
 	 * @param receiveData data from client
 	 */
-	public RequestHandler(DatagramPacket receivePacket, byte[] receiveData) {
+	public RequestHandler(long id, DatagramPacket receivePacket, byte[] receiveData) {
+		this.id = id;
 		this.receivePacket = receivePacket;
 		this.receiveData = receiveData;
 	}		
@@ -55,13 +59,14 @@ public class RequestHandler implements Runnable{
 			System.out.println("From Client: " + pointsFromClient);
 			log.info("message sent to SERVER");
 			DbSearchThread dbSearchThread = new DbSearchThread(pointsFromClient);
-			FromServerThread getFromServerThread = new FromServerThread(pointsFromClient);
+			ToServerThread getFromServerThread = new ToServerThread(new Message(id, Information.FIND_WAY, pointsFromClient));
 			Future<List<MapPosition>> pointsFromDb = execService.submit(dbSearchThread);
 			Future<List<MapPosition>> pointsFromServer = execService.submit(getFromServerThread);
 			if (pointsFromDb.get() != null){
+				execService.submit(new ToServerThread(new Message(id, Information.WAY_IS_ALREADY_FOUND, null)));
 				execService.execute(new ReplyThread(pointsFromDb.get(), receivePacket.getAddress(), receivePacket.getPort()));
-					System.out.println("Sending path to Client");
-					log.info("Sending path to Client");
+				System.out.println("Sending path to Client");
+				log.info("Sending path to Client");
 			}
 			else{
 				execService.execute(new ReplyThread(

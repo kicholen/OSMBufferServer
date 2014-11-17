@@ -49,7 +49,7 @@ public class DbSearchThread implements Callable<List<MapPosition>>{
 	private List<MapPosition> SearchDb() {
 		
 		List<MapPosition> pointsFromDb = null;
-		double delta = 0.0005;
+		double delta = 0.002;
         SessionFactory sf = HibernateUtil.createSessionFactory();
         Session session = sf.openSession();
         session.beginTransaction();
@@ -66,7 +66,7 @@ public class DbSearchThread implements Callable<List<MapPosition>>{
 					if (pointsFromClient.get(pointsFromClient.size()-1).getLatitude() - delta < dbPath.getEndLatitude()
 							&& dbPath.getEndLatitude() < pointsFromClient.get(pointsFromClient.size()-1).getLatitude() + delta)
 						if (pointsFromClient.get(pointsFromClient.size()-1).getLongitude() - delta < dbPath.getEndLongitude()
-								&& dbPath.getEndLongitude() < pointsFromClient.get(pointsFromClient.size()-1).getLongitude() + delta)if (dbPath.getEndLongitude() == pointsFromClient.get(pointsFromClient.size()-1).getLongitude())
+								&& dbPath.getEndLongitude() < pointsFromClient.get(pointsFromClient.size()-1).getLongitude() + delta)
 						{
 							System.out.println("tutaj");
 					        Query pathQuery = session.createQuery("from DbMapPosition where path_id = :path_id")

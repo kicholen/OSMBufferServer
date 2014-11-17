@@ -14,11 +14,12 @@ import pwr.osm.buffer.util.Log;
  */
 class BufferServer
 {
-	public final static int PORT = 9876;
+	private final static int PORT = 9876;
+	private static long requestId = 1;
 	
 	public static void main(String args[]) throws Exception
 	{
-		ExecutorService execService = Executors.newFixedThreadPool(10);
+		ExecutorService execService = Executors.newFixedThreadPool(11);
 		Log log = new Log();
 		log.onStart();
 		System.out.println("SERVER WORKING");
@@ -33,7 +34,8 @@ class BufferServer
 			serverUDPSocket.receive(receivePacket);
 			System.out.println("Got package, creating threads to handle");
 			log.info("Got package, creating thread to handle");		
-			execService.execute(new RequestHandler(receivePacket, receiveData));
+			execService.execute(new RequestHandler(requestId, receivePacket, receiveData));
+			requestId++;
        }
 	}
 }
