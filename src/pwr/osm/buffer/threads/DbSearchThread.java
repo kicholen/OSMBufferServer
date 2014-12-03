@@ -59,14 +59,10 @@ public class DbSearchThread implements Callable<List<MapPosition>>{
 		List<DbPath> result = query.list();
 		for(DbPath dbPath : result)
 		{			
-			if (pointsFromClient.get(0).getLatitude() - delta < dbPath.getStartLatitude()
-					&& dbPath.getStartLatitude() < pointsFromClient.get(0).getLatitude() + delta)
-				if (pointsFromClient.get(0).getLongitude() - delta < dbPath.getStartLongitude()
-						&& dbPath.getStartLongitude() < pointsFromClient.get(0).getLongitude() + delta)
-					if (pointsFromClient.get(pointsFromClient.size()-1).getLatitude() - delta < dbPath.getEndLatitude()
-							&& dbPath.getEndLatitude() < pointsFromClient.get(pointsFromClient.size()-1).getLatitude() + delta)
-						if (pointsFromClient.get(pointsFromClient.size()-1).getLongitude() - delta < dbPath.getEndLongitude()
-								&& dbPath.getEndLongitude() < pointsFromClient.get(pointsFromClient.size()-1).getLongitude() + delta)
+			if (Math.abs(pointsFromClient.get(0).getLatitude() - dbPath.getStartLatitude()) < delta)
+				if (Math.abs(pointsFromClient.get(0).getLongitude() - dbPath.getStartLongitude()) < delta)
+					if (Math.abs(pointsFromClient.get(pointsFromClient.size()-1).getLatitude() - dbPath.getEndLatitude()) < delta)
+						if (Math.abs(pointsFromClient.get(pointsFromClient.size()-1).getLongitude() - dbPath.getEndLongitude()) < delta)
 						{
 							System.out.println("tutaj");
 					        Query pathQuery = session.createQuery("from DbMapPosition where path_id = :path_id")
