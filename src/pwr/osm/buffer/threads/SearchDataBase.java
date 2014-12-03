@@ -2,7 +2,6 @@ package pwr.osm.buffer.threads;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.Callable;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
@@ -10,7 +9,6 @@ import org.hibernate.SessionFactory;
 
 import pwr.osm.data.representation.MapPosition;
 import pwr.osm.buffer.util.HibernateUtil;
-import pwr.osm.buffer.util.Log;
 import pwr.osm.buffer.db.DbMapPosition;
 import pwr.osm.buffer.db.DbPath;
 
@@ -19,34 +17,16 @@ import pwr.osm.buffer.db.DbPath;
 * @author Sobot
 *
 */
-public class DbSearchThread implements Callable<List<MapPosition>>{
+public class SearchDataBase{
 	
 	private List<MapPosition> pointsFromClient;
 
-	public DbSearchThread(List<MapPosition> pointsFromClient){
+	public SearchDataBase(List<MapPosition> pointsFromClient){
 		
 		this.pointsFromClient = pointsFromClient;
 	}
-	
-	@Override
-	public List<MapPosition> call(){
-		
-		List<MapPosition> pointsFromDb=new ArrayList<MapPosition>();
-		Log log = new Log();
-		
-		try
-		{
-			pointsFromDb = SearchDb();
-		}
-		catch (Exception e)
-		{
-			e.printStackTrace();
-			log.error("Exception occured: " + e.getMessage());
-		}
-		return pointsFromDb;
-	}
 
-	private List<MapPosition> SearchDb() {
+	public List<MapPosition> searchDb() {
 		
 		List<MapPosition> pointsFromDb = null;
 		double delta = 0.002;

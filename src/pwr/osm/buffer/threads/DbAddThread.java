@@ -10,7 +10,6 @@ import pwr.osm.buffer.db.DbMapPosition;
 import pwr.osm.buffer.db.DbPath;
 import pwr.osm.data.representation.MapPosition;
 import pwr.osm.buffer.util.HibernateUtil;
-import pwr.osm.buffer.util.Log;
 
 /**
 * Thread for adding calculated path to database.
@@ -29,22 +28,13 @@ public class DbAddThread implements Runnable{
 	@Override
 	public void run(){
 		
-		Log log = new Log();
-		
-		try
-		{
-			AddToDb();
-		}
-		catch (Exception e)
-		{
-			log.error("Exception occured: " + e.getMessage());
-		}
+		addToDb();
 	}
 	
 	/**
 	 *	Adds calculated path to database.
 	 */
-	private void AddToDb() {
+	private void addToDb() {
 		
         SessionFactory sf = HibernateUtil.createSessionFactory();
         Session session = sf.openSession();

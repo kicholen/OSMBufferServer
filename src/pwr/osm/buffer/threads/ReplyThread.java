@@ -2,6 +2,7 @@ package pwr.osm.buffer.threads;
 
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
@@ -36,38 +37,38 @@ public class ReplyThread implements Runnable{
 
 	@Override
 	public void run(){
-		
-		Log log = new Log();
-		
-		try
-		{
-			HandlePacket();
-		}
-		catch (Exception e)
-		{
-			log.error("Exception occured: " + e.getMessage());
-		}
+
+		HandlePacket();
 	}
 	
 	/**
 	 * Sends calculated path to client.
 	 * @throws Exception
 	 */
-	private void HandlePacket() throws Exception{
+	private void HandlePacket(){
 		
 		byte[] replyBuff = new byte [5000];
         byte[] sendData = new byte[replyBuff.length];
-        DatagramSocket replySocket = new DatagramSocket();
-		ByteArrayOutputStream byteStream = new ByteArrayOutputStream(5000);
-		ObjectOutputStream objectOutStream = new ObjectOutputStream(new BufferedOutputStream(byteStream));
-	
-		objectOutStream.flush();
-		objectOutStream.writeObject(pointsToClient);
-		objectOutStream.flush();
-		sendData = byteStream.toByteArray();
-		DatagramPacket sendPacket =
-		new DatagramPacket(sendData, sendData.length, IPAddress, port);
-		replySocket.send(sendPacket);
+        DatagramSocket replySocket = null;
+		try {
+	        replySocket = new DatagramSocket();
+			ByteArrayOutputStream byteStream = new ByteArrayOutputStream(5000);
+			ObjectOutputStream objectOutStream = new ObjectOutputStream(new BufferedOutputStream(byteStream));
+		
+			objectOutStream.flush();
+			objectOutStream.writeObject(pointsToClient);
+			objectOutStream.flush();
+			sendData = byteStream.toByteArray();
+			DatagramPacket sendPacket =
+					new DatagramPacket(sendData, sendData.length, IPAddress, port);
+
+			replySocket.send(sendPacket);
+		} catch (IOException e) {
+			Log log = new Log();
+			
+			log.error(e.getMessage());
+			e.printStackTrace();
+		}
 		replySocket.close();
 	}
 }
