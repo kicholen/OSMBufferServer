@@ -1,10 +1,13 @@
 package pwr.osm.connection;
 
-public enum Information{
+import java.io.Serializable;
+
+public enum Information implements Serializable{
 
 	WAY_IS_ALREADY_FOUND("Stop you job"),
 	FIND_WAY("Find way"),
-	WAY_IS_FOUND("Way is found");
+	WAY_IS_FOUND("Way is found"),
+	WAY_NOT_FOUND("Unable to find way");
 	
 	private String info;
 

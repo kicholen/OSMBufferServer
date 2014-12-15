@@ -45,7 +45,7 @@ public class SearchDataBase{
 						if (Math.abs(pointsFromClient.get(pointsFromClient.size()-1).getLongitude() - dbPath.getEndLongitude()) < delta)
 						{
 							System.out.println("tutaj");
-					        Query pathQuery = session.createQuery("from DbMapPosition where path_id = :path_id")
+					        Query pathQuery = session.createQuery("from DbMapPosition where path_id = :path_id order by idx")
 					        		.setParameter("path_id",dbPath.getPathId());
 							@SuppressWarnings("unchecked")
 							List<DbMapPosition> path = pathQuery.list();

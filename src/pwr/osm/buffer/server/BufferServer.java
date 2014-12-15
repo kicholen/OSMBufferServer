@@ -29,7 +29,7 @@ class BufferServer
 		try {
 			serverUDPSocket = new DatagramSocket(PORT);
 
-			execService.execute(new DbClearThread(1, 2));
+			execService.execute(new DbClearThread(2, 5));
 	        while(true)
 	    	{	
 	        	byte[] receiveData = new byte[5000];
