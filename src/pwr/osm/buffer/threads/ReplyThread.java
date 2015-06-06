@@ -1,9 +1,6 @@
 package pwr.osm.buffer.threads;
 
-import java.io.BufferedOutputStream;
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.io.ObjectOutputStream;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
@@ -51,14 +48,13 @@ public class ReplyThread implements Runnable{
         byte[] sendData = new byte[replyBuff.length];
         DatagramSocket replySocket = null;
 		try {
-	        replySocket = new DatagramSocket();
-			ByteArrayOutputStream byteStream = new ByteArrayOutputStream(5000);
-			ObjectOutputStream objectOutStream = new ObjectOutputStream(new BufferedOutputStream(byteStream));
+	        replySocket = new DatagramSocket(9875);
 		
-			objectOutStream.flush();
-			objectOutStream.writeObject(pointsToClient);
-			objectOutStream.flush();
-			sendData = byteStream.toByteArray();
+			String wspolrzedne = "";
+			for(MapPosition w : pointsToClient)
+				wspolrzedne += Double.toString(w.getLatitude())+"#"
+						+Double.toString(w.getLongitude())+"#";
+			sendData = wspolrzedne.getBytes();			
 			DatagramPacket sendPacket =
 					new DatagramPacket(sendData, sendData.length, IPAddress, port);
 

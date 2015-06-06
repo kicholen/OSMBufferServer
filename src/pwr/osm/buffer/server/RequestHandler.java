@@ -1,10 +1,7 @@
 package pwr.osm.buffer.server;
 
-import java.io.BufferedInputStream;
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
 import java.net.DatagramPacket;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -14,8 +11,8 @@ import pwr.osm.buffer.threads.SearchDataBase;
 import pwr.osm.buffer.threads.ConnectToServer;
 import pwr.osm.buffer.threads.ReplyThread;
 import pwr.osm.buffer.util.Log;
-import pwr.osm.connection.Information;
-import pwr.osm.connection.Message;
+import pwr.osm.connection.data.Information;
+import pwr.osm.connection.data.Message;
 import pwr.osm.data.representation.MapPosition;
 
 /**
@@ -47,12 +44,15 @@ public class RequestHandler implements Runnable{
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
-	public void run() {	  
-		ByteArrayInputStream inputStream = new ByteArrayInputStream(receiveData);
-		ObjectInputStream is = null;
-		try {
-			is = new ObjectInputStream(new BufferedInputStream(inputStream));
-			List<MapPosition> pointsFromClient = (List<MapPosition>) is.readObject();
+	public void run() {
+			String s = new String(receiveData, 0, receivePacket.getLength());
+			String splitted[]=s.split("#");
+			double [] wspolrzedne = new double[4];
+			for(int i=0; i<4; i++)
+				wspolrzedne[i]=Double.parseDouble(splitted[i]);
+			List<MapPosition> pointsFromClient = new ArrayList<MapPosition>();
+			pointsFromClient.add(new MapPosition(wspolrzedne[0],wspolrzedne[1]));
+			pointsFromClient.add(new MapPosition(wspolrzedne[2],wspolrzedne[3]));
 
 			System.out.println("From Client: " + pointsFromClient);
 			log.info("message sent to SERVER");
@@ -66,6 +66,8 @@ public class RequestHandler implements Runnable{
 			}
 			else{
 				List<MapPosition> pointsFromServer = getFromServerThread.handleConnection();
+				if(pointsFromServer == null)
+					pointsFromServer = pointsFromClient;
 				execService.execute(new ReplyThread(
 						pointsFromServer, receivePacket.getAddress(), receivePacket.getPort()));
 				System.out.println("Sending path to Client");
@@ -73,14 +75,7 @@ public class RequestHandler implements Runnable{
 				execService.execute(new DbAddThread(pointsFromServer));
 				System.out.println("Adding path to Db");
     			log.info("Adding path to Db");
-				}
 			}
-			catch (IOException | ClassNotFoundException e) {
-				log.error(e.getMessage());
-				e.printStackTrace();
-			}
-			finally {
-				execService.shutdown();
-			}
+			execService.shutdown();
 	}
 }

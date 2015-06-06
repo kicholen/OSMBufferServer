@@ -1,4 +1,4 @@
-package pwr.osm.connection;
+package pwr.osm.connection.data;
 
 import java.io.Serializable;
 

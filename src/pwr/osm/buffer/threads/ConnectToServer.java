@@ -7,7 +7,7 @@ import java.net.Socket;
 import java.util.List;
 
 import pwr.osm.buffer.util.Log;
-import pwr.osm.connection.Message;
+import pwr.osm.connection.data.Message;
 import pwr.osm.data.representation.MapPosition;
 
 /**
@@ -52,6 +52,7 @@ public class ConnectToServer{
 			
 			log.error(e.getMessage());
 			e.printStackTrace();
+			return null;
 		}	
 		return messageFromServer.getData();
 		
